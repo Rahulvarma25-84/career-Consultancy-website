@@ -1,0 +1,39 @@
+.about-page {
+    padding-top: 60px; /* To ensure navbar doesn’t overlap */
+  }
+  
+  .more-about,
+  .team-section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  }
+  
+  .more-about h2,
+  .team-section h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .more-about p,
+  .team-section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .more-about ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .more-about ul li {
+    margin-bottom: 0.75rem;
+    font-size: 1.05rem;
+    color: #444;
+  }
+  

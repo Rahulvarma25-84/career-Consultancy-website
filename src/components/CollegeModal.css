@@ -1,0 +1,140 @@
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    overflow: auto;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 700px;
+    max-height: 85vh;
+    overflow-y: auto;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    position: relative;
+    font-family: 'Segoe UI', sans-serif;
+    animation: fadeInUp 0.3s ease;
+    margin: 1rem auto;
+    margin-bottom: 2rem; /* ✅ Added bottom spacing */
+  }
+  
+  /* Modal Animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Close Button */
+  .modal-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #eee;
+    border: none;
+    border-radius: 50%;
+    padding: 6px 12px;
+    color: #333;
+    transition: background-color 0.3s ease;
+    z-index: 1001;
+  }
+  
+  .modal-close-btn:hover {
+    background-color: #ccc;
+  }
+  
+  /* Headings */
+  .modal-section h3 {
+    font-size: 1.2rem;
+    margin: 20px 0 5px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  /* Paragraphs */
+  .modal-section p {
+    margin: 0 0 12px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Carousel Images */
+  .image-carousel img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  
+  /* WhatsApp Section */
+  .modal-cta {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .modal-cta p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+  
+  .whatsapp-btn:hover {
+    background-color: #1ebe5b;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 600px) {
+    .modal-content {
+      padding: 20px;
+      max-width: 100%;
+      max-height: 90vh;
+    }
+  
+    .modal-section h3 {
+      font-size: 1.1rem;
+    }
+  
+    .modal-section p {
+      font-size: 0.95rem;
+    }
+  }

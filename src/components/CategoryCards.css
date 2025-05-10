@@ -1,0 +1,27 @@
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .category-card {
+    width: 300px;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .college-info {
+    margin-bottom: 1rem;
+  }
+  

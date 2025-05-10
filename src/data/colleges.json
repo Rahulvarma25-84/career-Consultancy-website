@@ -1,0 +1,130 @@
+[
+  {
+    "CollegeID": "CLG001",
+    "Name": "Amrita Vishwa Vidyapeetham",
+    "Logo": "https://aeestaging.amrita.edu/portal/_next/image?url=%2Fportal%2Fimages%2FAmritalogo.png&w=384&q=75",
+    "Title": "Amrita Vishwa Vidyapeetham",
+    "Description": "Amrita Vishwa Vidyapeetham is a distinguished private, multi-campus, and multi-disciplinary research-intensive university in India. Founded in 1994 by Mata Amritanandamayi Devi, it has grown to encompass over 30,000 students and more than 2,000 faculty members across nine campuses nationwide.",
+    "YearEstablished": 1994,
+    "ImageURLs": ["", "", "", ""],
+    "Ranking": "7 (NIRF 2024)",
+    "PlacementPercentage": "99%",
+    "HighestCTC": "",
+    "Type": ["BTech", "MBA"],
+    "BranchesOffered": [
+      "Computer Science and Engineering (CSE)",
+      "CSE – Artificial Intelligence",
+      "CSE – Cyber Security",
+      "CSE – Artificial Intelligence and Data Science",
+      "Computer and Communication Engineering",
+      "Electronics and Communication Engineering (ECE)",
+      "Electronics and Computer Engineering",
+      "Electrical and Electronics Engineering (EEE)",
+      "Electrical and Computer Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Aerospace Engineering",
+      "Automation & Robotics Engineering",
+      "Robotics & Artificial Intelligence (RAI)"
+    ],
+    "Campuses": ["Coimbatore", "Bengaluru", "Amritapuri", "Chennai", "Kochi", "Mysuru", "Amaravati", "Faridabad"],
+    "State": "",
+    "City": "",
+    "ContactEmail": "campusconnect054@gmail.com",
+    "ContactNumber": ["9108275821", "6301200000"],
+    "CoursesAvailable": ["Engineering & Technology"],
+    "Companies": [
+      "Google", "Microsoft", "Amazon", "Oracle", "Cisco", "SAP Labs", "Dell", "IBM", "Flipkart", "Qualcomm",
+      "MathWorks", "ServiceNow", "PayPal", "BrowserStack", "Infosys", "TCS", "Wipro", "Accenture", "Capgemini",
+      "Cognizant", "HCL", "Zoho", "Bosch", "Siemens", "GE Healthcare", "Caterpillar", "Schneider Electric",
+      "Honeywell", "L&T Technology Services", "Tata Technologies", "Ingersoll Rand", "Magna Automotive",
+      "Inteva Products"
+    ],
+    "Accreditations": ["NAAC A++", "UGC", "AICTE", "NABH (for medical programs)"],
+    "Highlights": [
+      "🌍 400+ International MoUs (Harvard, Stanford, Oxford, Tokyo, KTH etc.)",
+      "🎓 Dual-Degree & Twinning Programs: 2+2, 3+2, 4+1 with foreign universities",
+      "📚 Semester Abroad Program",
+      "💡 Research & global internships (Erasmus+, DAAD etc.)"
+    ]
+  },
+  {
+    "CollegeID": "CLG002",
+    "Name": "VIT (Vellore Institute of Technology)",
+    "Logo": "https://cdn.freelogovectors.net/wp-content/uploads/2023/01/vit-logo-freelogovectors.net_-400x225.png",
+    "Title": "VIT - Innovation, Research & Global Exposure",
+    "Description": "One of India’s premier private engineering institutions known for innovation, research, and global exposure.",
+    "YearEstablished": 1984,
+    "ImageURLs": ["", "", "", ""],
+    "Ranking": "NIRF #11 (Engineering)",
+    "PlacementPercentage": "90–95%",
+    "HighestCTC": "75 LPA (International), 63 LPA (Domestic)",
+    "Type": ["BTech"],
+    "BranchesOffered": [
+      "Biotechnology", "Chemical Engineering", "Civil Engineering", "Computer Science and Engineering (CSE)",
+      "CSE - AI & ML", "CSE - Data Engineering", "Bioinformatics", "Cyber Security", "Data Science",
+      "Internet of Things (IoT)", "Business Systems (TCS)", "EEE", "ECSE", "ECE", "Instrumentation",
+      "Biomedical ECE", "VLSI Design", "IT", "Mechanical Engineering", "Electric Vehicles", "Smart Manufacturing",
+      "Health Sciences and Technology"
+    ],
+    "Campuses": ["AP"],
+    "State": "",
+    "City": "",
+    "ContactEmail": "",
+    "ContactNumber": [],
+    "CoursesAvailable": [],
+    "Companies": [
+      "Microsoft", "Amazon", "Intel", "Dell", "Infosys", "TCS", "Cognizant", "Wipro", "Accenture", "HP",
+      "Deloitte", "Bosch", "PayPal", "Qualcomm"
+    ],
+    "Accreditations": ["NAAC A++", "ABET", "NBA", "AICTE", "UGC"],
+    "Highlights": [
+      "400+ acre eco-friendly campus",
+      "700+ recruiters annually",
+      "300+ international collaborations",
+      "Hosts VITEEE entrance exam",
+      "Advanced research centers and innovation labs"
+    ]
+  },
+  {
+    "CollegeID": "CLG003",
+    "Name": "SRM Institute of Science and Technology (SRMIST)",
+    "Logo": "https://logodix.com/logo/1787099.gif",
+    "Title": "SRMIST - Diverse, Global, Research-Oriented",
+    "Description": "A premier private deemed university in India offering diverse programs in engineering, medicine, management, humanities, and more. Known for innovation, research, and global collaborations.",
+    "YearEstablished": 1985,
+    "ImageURLs": ["", "", "", ""],
+    "Ranking": "NIRF 2024: #32 Overall, #18 University Category",
+    "PlacementPercentage": "95%",
+    "HighestCTC": "₹42 LPA (Domestic), ₹50 LPA (International)",
+    "Type": ["BTech"],
+    "BranchesOffered": [
+      "CSE", "CSE - AI & ML", "CSE - Data Science", "Cyber Security", "IoT", "Big Data", "Blockchain",
+      "Cloud Computing", "Software Engineering", "Game Development", "ECE", "VLSI", "Embedded Systems",
+      "EEE", "Mechanical", "Civil", "Biotech", "Biomedical", "Automobile Engineering",
+      "MBA", "BBA", "Physics", "Chemistry", "Maths", "Visual Communication", "Psychology",
+      "BCA", "MCA", "Commerce", "English", "Mass Communication", "Law", "MBBS", "BDS", "Nursing",
+      "Pharmacy", "Public Health", "Agricultural Sciences"
+    ],
+    "Campuses": [],
+    "State": "",
+    "City": "",
+    "ContactEmail": "",
+    "ContactNumber": [],
+    "CoursesAvailable": [],
+    "Companies": [
+      "TCS", "Infosys", "Wipro", "Cognizant", "Accenture", "HCL", "Amazon", "Microsoft", "IBM",
+      "Capgemini", "Deloitte", "L&T", "Siemens", "Bosch", "PayPal", "Oracle", "Google", "Adobe",
+      "Zoho", "Flipkart", "Byju's", "Tech Mahindra"
+    ],
+    "Accreditations": ["NAAC A++", "ABET", "NBA", "AICTE", "UGC", "MCI", "DCI", "PCI"],
+    "Highlights": [
+      "52,000+ students, 3,200+ faculty",
+      "Collabs with MIT, Carnegie Mellon, UC Davis, etc.",
+      "Smart classrooms, advanced labs, and innovation hubs",
+      "Over 650 recruiters annually",
+      "Diverse and international student body"
+    ]
+  }
+]

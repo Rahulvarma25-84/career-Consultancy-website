@@ -1,0 +1,152 @@
+/* Navbar container with sticky positioning */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slightly larger shadow for professionalism */
+    border-radius: 10px 10px 0 0; /* Curved edges at top */
+    transition: all 0.3s ease-in-out;
+    height: 60px; /* Reduced height for a more compact navbar */
+    margin-top: -30px; /* Slightly overlap the hero section */
+  }
+  
+  /* Make navbar disappear on scroll */
+  .navbar.scrolled {
+    opacity: 0; /* Hide navbar */
+    transform: translateY(-100%); /* Move it up */
+  }
+  
+  /* Container for logo and menu */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    border-radius: inherit;
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo hover effect */
+  .logo:hover {
+    color: #007bff;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect on nav links */
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px; /* Make buttons circular */
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .nav-links li a:hover {
+    color: #fff;
+    background-color: #439bf9;
+    transform: scale(1.1); /* Slightly grow the button on hover */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  /* Hamburger menu for mobile */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .bar {
+    height: 3px;
+    width: 30px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Transform bars to 'X' when menu is open */
+  .menu-toggle.open .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .menu-toggle.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-toggle.open .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  
+  /* Mobile menu styling */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: flex;
+    }
+  
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: white;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    .nav-links.active {
+      max-height: 250px;
+    }
+  
+    .nav-links li a {
+      font-size: 1.1rem;
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    /* Hide the nav-links until hamburger menu is clicked */
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  }
+  
